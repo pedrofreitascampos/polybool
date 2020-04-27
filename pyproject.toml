@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "polybool"
+version = "0.1.0"
+description = "Fast boolean operations for polygons, based on the Martinez \"plane sweep\" algorithm"
+authors = ["Pedro Campos <pedrofreitascampos@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/pedrofreitascampos/polybool"
+homepage = "https://github.com/pedrofreitascampos/polybool"
+keywords = ['polygon-clipping', 'polygon-intersection', 'polygon-clipping-algorithm', 'polygon-union',
+'geometric-computing', 'geometry', 'bool-operations', 'polybool']
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+pytest-cov = "^2.8.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
